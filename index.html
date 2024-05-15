@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>Kitty Jump</title>
+        <link rel="stylesheet" href="doodlejump.css">
+        <script src="doodlejump.js"></script>
+        <link rel="icon" type="image/x-icon" href="FECASCAS.webp">
+        <style>
+            
+            body {
+                background-color: rgb(30, 129, 199);
+            }
+            @font-face {
+            font-family: wiggly;
+            src: url(Cat\ Comic.ttf);
+        }
+        * {
+            font-family: wiggly;
+        } 
+        .social-buttons a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .social-buttons a img {
+            width: 50px;
+            height: 50px;
+        }
+        .social-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .picture {
+            width: 500px; /* Adjust picture size as needed */
+            height: auto;
+            border-radius: 0;
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+            z-index: 1; /* Ensure picture is above buttons */
+        }
+        .text {
+            width: 500px;
+            height: auto;
+            top:20%;
+            left:15%;
+            position: absolute;
+            font-size: 50px;
+            transform: translate(-40%, -35%);
+            z-index: 1;
+            font-family: wiggly;
+            color: #054968;
+            outline: black;
+        }
+        .picture2 {
+            width: 500px; /* Adjust picture size as needed */
+            height: auto;
+            border-radius: 0;
+            position: absolute;
+            top: 300%;
+            left: 25%;
+            transform: translate(-25%, -90%);
+            z-index: 1; /* Ensure picture is above buttons */
+        }
+
+        </style>
+    </head>
+    <body>
+        <canvas id="board"></canvas>
+        <div class="social-buttons">
+            <a href="https://pump.fun/board"><img src="pump.webp" alt="PumpFun"></a>
+            <a href="https://twitter.com/KittyJumppp"><img src="twitter.webp" alt="Twitter"></a>
+            <a href="https://t.me/+VrR1FUwLkAlhM2E1"><img src="telegram.webp" alt="Telegram"></a>
+        </div>
+        <div class="text" alt="text">
+            <h2>$KTJMP</h2>
+            <img class="picture2" src="picture2.webp" alt="picture">
+        </div>
+            
+    </body>
+</html>
